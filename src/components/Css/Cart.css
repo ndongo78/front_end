@@ -1,0 +1,37 @@
+.cart{
+    position: relative;
+    border: 1px solid #ccc;
+}
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+.amount .count{
+    width: 40px;
+    height: 30px;
+    border: 1px solid #555;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color: crimson;
+    cursor: pointer;
+    font-weight: 900;
+}
+.total{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.contCart{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.somme{
+    color: rgb(220, 20, 60);
+}

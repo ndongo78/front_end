@@ -1,0 +1,57 @@
+.item{
+   width: 100%;
+    color: white;
+    border-bottom: 1px solid  rgb(255, 106, 92);
+}
+.cat .active{
+    opacity: .8;
+    
+}
+.cat li:hover{
+    border-bottom: 1px solid rgb(255, 249, 249);
+}
+
+
+
+.cat li{
+    margin: .8rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.lik{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 10rem;
+    background-color: rgb(63, 226, 210);
+  transition: all 5s ease;
+  transition: fade in;
+}
+
+.contains{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+/* .lik:hover {
+    transform: translateY(200px);
+  } */
+   /* .overlayTop{ 
+    width: 100%; 
+    height: 0; 
+    top: 0; 
+    right: 0; 
+    position: absolute;
+    width: 100%;
+  transition: all 5s ease;
+    background-color: transparent; 
+} 
+.overlayTop .lik{
+    top: 8rem;
+}
+  
+.card:hover .overlayTop{ 
+    height: 500px;
+} */

@@ -1,0 +1,59 @@
+.footer{
+    background-color: #000000;
+    height: 43vh;
+    font-family: 'Roboto';
+  }
+  .footer h3{
+   
+  }
+  .searc{
+    width: 90%;
+  }
+
+.buton{
+    background-color: #92c7f1;
+    margin-bottom: 2rem;
+    border-radius: 5rem;
+    color: black;
+    margin-top: 2rem;
+}
+.create{
+    margin-bottom: 2rem;
+    border-radius: 5rem;
+    color: black;
+    border: 1px solid #000;
+    width: 20rem;
+    margin-top: 2rem;
+}
+.create:hover{
+    background-color: #f4f4f4;
+}
+
+.fa-search{
+    cursor: pointer;
+}
+.fIcone{
+    margin: .4rem;
+    background-color: rgb(63, 61, 61);
+    color: #fff;
+    width: 3rem;
+    height: 2rem;
+    border-radius: 45%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.fIcone:hover{
+    background-color: rgb(31, 9, 228);
+}
+
+address{
+    font-weight: 800;
+    text-justify: distribute;
+    opacity: .8;
+}
+.ic{
+    color: rgb(116, 110, 110);
+}
